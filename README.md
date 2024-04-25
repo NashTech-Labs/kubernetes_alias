@@ -1,4 +1,13 @@
-**Aliases for kubectl commands:**
+**Kubernetes Aliases**
+
+This section provides a list of helpful aliases designed to streamline your workflow when working with Kubernetes using `kubectl`. These aliases offer quicker access to frequently used commands and enhance efficiency.
+
+**How to Use Aliases**
+
+1. **Add to Shell Configuration:** Copy and paste the alias definitions below into your shell configuration file (e.g., `.bashrc` for Bash).
+2. **Save and Reload:** Save your changes to the configuration file and then reload your shell session for the aliases to take effect (usually by sourcing the file or restarting the terminal).
+
+**Available Aliases for kubectl commands:**
 
 - `k=kubectl`: This is a simple alias that assigns the `kubectl` command to the shorter `k`. This saves you from typing the full command repeatedly.
 - `kn='kubectl config set-context --current --namespace'`: Sets the current namespace for `kubectl` commands. You provide the namespace after the `kn` alias.
